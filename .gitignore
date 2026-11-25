@@ -1,0 +1,26 @@
+# Data (published separately on Zenodo)
+01_raw_data/
+02_processed_data/
+04_results/
+05_logs/
+Archived_26_June_2026__Walk_Network/
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+*.token
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local working notes
+CLAUDE.md
+PROGRESS.md
+AGENTS.md
+/.agents/
