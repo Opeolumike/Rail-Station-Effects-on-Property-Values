@@ -27,7 +27,15 @@ The data are on Zenodo: [10.5281/zenodo.24544649](https://doi.org/10.5281/zenodo
 Run [`reproduce.ipynb`](reproduce.ipynb). It unzips the data into the repository, checks every file against `MANIFEST-SHA256.txt`, runs notebooks 01 to 06 in order and compares the new results with the originals.
 
 - **Google Colab:** [open the notebook in Colab](https://colab.research.google.com/github/Opeolumike/Rail-Station-Effects-on-Property-Values/blob/main/reproduce.ipynb), put the five zips in a Google Drive folder named `zenodo_data`. If they are in a different Drive folder, type its name in the `DATA` box in step 1. Colab warns that the notebook was not written by Google, which it does for any notebook opened from GitHub. Click Run anyway, then allow access to Google Drive so step 1 can read the zips.
-- **Own computer:** clone the repository, put the five zips in a folder named `zenodo_data` inside it, or set `DATA` in step 1 to the full path of another folder (with forward slashes, for example `C:/Users/me/zips`), and open `reproduce.ipynb` from the repository folder in Jupyter or VS Code.
+- **Own computer:**
+  1. Create and activate a new Python environment, for example with conda: `conda create -n rail-repro -c conda-forge python=3.13`, then `conda activate rail-repro`. The verified run used Python 3.13.
+  2. In that environment, install Jupyter, pandas and tqdm with pip:
+     ```
+     pip install jupyter pandas tqdm
+     ```
+     The notebooks install the other packages they need (geopandas, osmnx, statsmodels and so on) in their first cell with pip, so use pip here too rather than conda, to keep one installer.
+  3. Clone the repository and put the five zips in a folder named `zenodo_data` inside it (ignored by git). If the zips are in another folder, set `DATA` in step 1 to its full path, with forward slashes, for example `C:/Users/me/zips`.
+  4. Open `reproduce.ipynb` from the repository folder in Jupyter or VS Code, with the new environment as the kernel.
 
 A full run takes some hours, mainly notebook 04.
 
