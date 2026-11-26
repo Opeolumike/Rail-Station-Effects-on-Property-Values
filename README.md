@@ -26,7 +26,7 @@ The data are on Zenodo: [10.5281/zenodo.24544649](https://doi.org/10.5281/zenodo
 
 Run [`reproduce.ipynb`](reproduce.ipynb). It unzips the data into the repository, checks every file against `MANIFEST-SHA256.txt`, runs notebooks 01 to 06 in order and compares the new results with the originals.
 
-- **Google Colab:** [open the notebook in Colab](https://colab.research.google.com/github/Opeolumike/Rail-Station-Effects-on-Property-Values/blob/main/reproduce.ipynb), put the five zips in a Google Drive folder and set `DATA` in step 1.
+- **Google Colab:** [open the notebook in Colab](https://colab.research.google.com/github/Opeolumike/Rail-Station-Effects-on-Property-Values/blob/main/reproduce.ipynb), put the five zips in a Google Drive folder named `zenodo_data` (or type another folder in the `DATA` box in step 1).
 - **Own computer:** clone the repository, put the five zips in a folder named `zenodo_data` inside it and open `reproduce.ipynb` from the repository folder in Jupyter or VS Code.
 
 A full run takes some hours, mainly notebook 04.
