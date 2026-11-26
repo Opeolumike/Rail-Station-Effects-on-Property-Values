@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "Code for: A Quasi-Experimental Evaluation of Rail Station Effects on Property Values in Devon"
+abstract: >-
+  Python notebooks that reproduce the MSc dissertation "A Quasi-Experimental
+  Evaluation of Rail Station Effects on Property Values in Devon" (University
+  of Exeter, 2026). A triple-difference hedonic design with wild cluster
+  bootstrap inference evaluates the Okehampton (2021) and Marsh Barton (2023)
+  station openings against ten control stations. The data are on Zenodo.
+authors:
+  - family-names: Opeoluwa
+    given-names: Michael
+    orcid: "https://orcid.org/0009-0008-0764-1544"
+    affiliation: "University of Exeter"
+repository-code: "https://github.com/Opeolumike/Rail-Station-Effects-on-Property-Values"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-26"
+keywords:
+  - rail stations
+  - property values
+  - hedonic pricing
+  - difference-in-difference-in-differences
+  - transport geography
+  - Devon
+references:
+  - type: data
+    title: "Data for: A Quasi-Experimental Evaluation of Rail Station Effects on Property Values in Devon"
+    authors:
+      - family-names: Opeoluwa
+        given-names: Michael
+        orcid: "https://orcid.org/0009-0008-0764-1544"
+    doi: "10.5281/zenodo.24544649"
+    publisher:
+      name: Zenodo
+    version: "1.0"
+    year: 2026
