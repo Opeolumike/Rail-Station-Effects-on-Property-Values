@@ -2,7 +2,7 @@
 
 Evidence from the Okehampton and Marsh Barton station openings.
 
-Code for the MSc dissertation of the same title (University of Exeter, 2026). The study tested whether the reopening of Okehampton station (November 2021) and the opening of Marsh Barton station (July 2023) changed nearby residential and commercial property values. It used a triple-difference hedonic design with ten control stations and wild cluster bootstrap inference, and found no robust evidence of a station effect on property values.
+Code for the MSc dissertation of the same title (University of Exeter, 2026). The study tested whether the reopening of Okehampton station (November 2021) and the opening of Marsh Barton station (July 2023) changed nearby residential and commercial property values. It used a triple-difference hedonic design with ten control stations and wild cluster bootstrap inference, and found no statistically detectable capitalisation into property values following either station opening. The confidence interval remains compatible with both a small effect and no effect.
 
 ## Data
 
