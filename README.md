@@ -66,6 +66,8 @@ Notebook 04, cell 29 downloads rail lines live from OpenStreetMap for map layers
 
 Harvard (Cite Them Right):
 
+Opeoluwa, M. (2026) *Code for: A Quasi-Experimental Evaluation of Rail Station Effects on Property Values in Devon* (Version 1.0.0) [Computer program]. Zenodo. Available at: https://doi.org/10.5281/zenodo.24549757
+
 Opeoluwa, M. (2026) *Data for: A Quasi-Experimental Evaluation of Rail Station Effects on Property Values in Devon* (Version 1.0) [Dataset]. Zenodo. Available at: https://doi.org/10.5281/zenodo.24544649
 
 "Cite this repository" on GitHub gives the code citation in APA and BibTeX (from `CITATION.cff`).

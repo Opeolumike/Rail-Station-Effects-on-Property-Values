@@ -13,6 +13,7 @@ authors:
     given-names: Michael
     orcid: "https://orcid.org/0009-0008-0764-1544"
     affiliation: "University of Exeter"
+doi: "10.5281/zenodo.24549756"
 repository-code: "https://github.com/Opeolumike/Rail-Station-Effects-on-Property-Values"
 license: MIT
 version: "1.0.0"
